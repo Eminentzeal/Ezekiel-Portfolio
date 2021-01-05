@@ -263,11 +263,11 @@
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
-.prjects {
+.projects {
   padding-bottom: 2rem;
 }
 
-.prjects__bio-image {
+.projects__bio-image {
   height: 30vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), color-stop(rgba(39, 39, 39, 0.3)), to(rgba(39, 39, 39, 0.7))), url("/dist/img/model-1.png") center top;
@@ -288,12 +288,12 @@
           justify-content: flex-end;
 }
 
-.prjects__bio-image .text-secondary {
+.projects__bio-image .text-secondary {
   font-style: 2rem;
   margin-bottom: 2rem;
 }
 
-.prjects__items {
+.projects__items {
   width: 60vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
@@ -303,18 +303,18 @@
   grid-gap: 2rem;
 }
 
-.prjects__item {
+.projects__item {
   position: relative;
   border-bottom: 5px solid #ff652f;
   overflow: hidden;
   cursor: pointer;
 }
 
-.prjects__item img {
+.projects__item img {
   width: 100%;
 }
 
-.prjects .social-icons {
+.projects .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,7 +324,7 @@
           flex-direction: column;
 }
 
-.prjects footer {
+.projects footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
