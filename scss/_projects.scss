@@ -29,7 +29,7 @@
     margin: 2rem auto 0 auto; 
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 2rem;    
+    grid-gap: 2rem;   
   }
 
   &__item {
@@ -83,8 +83,8 @@
     color: set-text-color($secondary-color);
     @include transition-ease;
 
-    &::hover {
-      color: set-text-color(set-text-color ($secondary-color));
+    &:hover {
+      color: set-text-color(set-text-color($secondary-color));
     }
   }
 
