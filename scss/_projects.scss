@@ -7,9 +7,9 @@
     background: 
       linear-gradient(
         to right,
-        rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3),
-        rgba($primary-color, 0.7),
+        rgba($primary-color, 0.4),
+        rgba($primary-color, 0.8),
+        rgba($primary-color, 0.4),
       ),
       url('/dist/img/model-1.png') center top;
     background-size: cover;
@@ -19,7 +19,7 @@
     justify-content: flex-end;
 
     .text-secondary {
-      font-style: 2rem;
+      font-weight: 600;
       margin-bottom: 2rem ;
     }
   }

@@ -7,8 +7,8 @@
     background: 
       linear-gradient(
         to right,
-        rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3),
+        rgba($primary-color, 0.8),
+        rgba($primary-color, 0.8),
         rgba($primary-color, 0.7),
       ),
       url('/dist/img/model-1.png') center top;
@@ -20,6 +20,7 @@
 
     p {
       margin-block-end: 2rem;
+      line-height: 1.5rem;
     }
   }
 
@@ -29,6 +30,7 @@
 
     .text-secondary {
       padding-bottom: 1rem;
+      font-weight: 600;
     }
   }
 
@@ -50,6 +52,15 @@
       h6 {
         margin: 0.3rem 0;
       }
+      
+      li {
+        list-style-type: none;
+      }
+    }
+
+    &__duration {
+      font-style: italic;
+      opacity: 0.3;
     }
   }
 

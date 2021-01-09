@@ -19,7 +19,7 @@
 }
 
 .home__name {
-  font-size: 5rem;
+  font-size: 3.5rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
@@ -27,7 +27,12 @@
 
 .home__name--last {
   color: #ff652f;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.home footer {
+  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
+          transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
 .menu-btn {
@@ -192,8 +197,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), color-stop(rgba(39, 39, 39, 0.3)), to(rgba(39, 39, 39, 0.7))), url("/dist/img/model-1.png") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.7)), url("/dist/img/model-1.png") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), color-stop(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.7))), url("/dist/img/model-1.png") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.7)), url("/dist/img/model-1.png") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -213,6 +218,7 @@
 .about__bio-image p {
   -webkit-margin-after: 2rem;
           margin-block-end: 2rem;
+  line-height: 1.5rem;
 }
 
 .about__bio {
@@ -222,6 +228,7 @@
 
 .about__bio .text-secondary {
   padding-bottom: 1rem;
+  font-weight: 600;
 }
 
 .about .jobs {
@@ -248,6 +255,15 @@
   margin: 0.3rem 0;
 }
 
+.about .jobs__job li {
+  list-style-type: none;
+}
+
+.about .jobs__duration {
+  font-style: italic;
+  opacity: 0.3;
+}
+
 .about .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -270,8 +286,8 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), color-stop(rgba(39, 39, 39, 0.3)), to(rgba(39, 39, 39, 0.7))), url("/dist/img/model-1.png") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.7)), url("/dist/img/model-1.png") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.4)), color-stop(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.4))), url("/dist/img/model-1.png") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.4), rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.4)), url("/dist/img/model-1.png") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,7 +305,7 @@
 }
 
 .projects__bio-image .text-secondary {
-  font-style: 2rem;
+  font-weight: 600;
   margin-bottom: 2rem;
 }
 
@@ -345,7 +361,7 @@
   z-index: 1;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   -webkit-box-align: center;
       -ms-flex-align: center;
